@@ -1,0 +1,7 @@
+- name: enable nginx
+  shell: "amazon-linux-extras enable nginx1"
+  check_mode: no
+
+- name: install nginx
+  yum:
+    name: "nginx"

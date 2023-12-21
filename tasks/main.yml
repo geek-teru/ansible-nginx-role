@@ -1,0 +1,11 @@
+
+# tasks/main.yml
+
+- name: 01_installation
+  include: "01_installation.yml"
+
+- name: 02_configuration
+  include: "02_configuration.yml"
+
+- name: 03_restart
+  include: "03_restart.yml"
